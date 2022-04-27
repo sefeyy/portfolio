@@ -1,0 +1,245 @@
+/* 헤더 */
+div.hdrWrap>div.header{
+    width: 90%;
+    max-width: 700px;
+}
+div.hdrWrap>div.header>ul.nav>li{
+    display: none;
+}
+div.hdrWrap>div.header>ul.nav>li:nth-child(4){
+    display: block;
+}
+div.hdrWrap>div.header>h1{
+    line-height: 40px;
+}
+div.hdrWrap>div.header>ul.nav>li{
+    line-height: 40px;
+}
+div.hdrWrap>div.header>ul.nav>li>i{
+    line-height: 40px;
+    font-size: 30px;
+}
+/* 메뉴 */
+div.hdrWrap>div.header>ul.menu>li{
+    top: 50px;
+}
+div.hdrWrap>div.header>ul.menu>li:nth-child(2){
+    top: 90px;
+}
+div.hdrWrap>div.header>ul.menu>li:nth-child(3){
+    top: 130px;
+}
+/* 메인 */
+div.mainWrap{
+    height: 420px;
+}
+div.mainWrap>div.main{
+    width: 90%;
+    max-width: 700px;
+}
+div.mainWrap>div.main>div.btnTop>div.btn{
+    margin-top: 80px;
+}
+div.mainWrap>div.main>div.btnBtm>div.btn{
+    width: calc(100% / 8 * 2);
+    margin-top: 100px;
+}
+
+/* 컨텐츠 공통 */
+div.cntWrap>div.content{
+    width: 90%;
+    max-width: 700px;
+}
+/* 컨텐츠1 */
+div.cntWrap{
+    margin-top: 80px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i1{
+    width: 100%;
+    margin-left: 0;
+    height: 400px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(1){
+    width: 100%;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(1)>div.texts{
+    margin-top: -400px;
+    text-align: left;
+    margin-left: 30px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(2){
+    width: 100%;
+    margin-top: 360px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i2{
+    height: 400px;
+    width: 100%;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(2)>div.texts{
+    float: none;
+    margin-top: -400px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(3){
+    width: 100%;
+    margin-top: 360px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i3{
+    width: 100%;
+    margin-left: 0;
+    height: 320px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(3)>div.texts{
+    margin-top: -320px;
+    text-align: left;
+    margin-left: 30px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(4){
+    width: 100%;
+    margin-top: 280px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i4{
+    width: 100%;
+    margin-left: 0;
+    height: 320px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(4)>div.texts{
+    text-align: left;
+    margin-top: -320px;
+    margin-left: 30px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(5){
+    width: 100%;
+    margin-top: 280px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i5{
+    width: 100%;
+    margin-left: 0px;
+    height: 400px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(5)>div.texts{
+    text-align: left;
+    margin-top: -400px;
+    margin-left: 30px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(6){
+    width: 100%;
+    margin-top: 360px;
+    height: 360px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i6{
+    width: 100%;
+    height: 400px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(6)>div.texts{
+    margin-top: -400px;
+}
+
+/* 컨텐츠2 */
+div.cntWrap>div.content.cnt02>div.header>h2{
+    font-size: 24px;
+}
+div.cntWrap>div.content.cnt02>div.header>h4{
+    font-size: 14px;
+}
+div.cntWrap>div.content.cnt02>div.section{
+    margin-top: 40px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup{
+    width: 104%;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.image{
+    height: 400px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article{
+    width: calc(100% / 3 - 60px);
+    margin: 0px 20px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article:nth-child(1){
+    display: none;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article:nth-child(4)~div.article{
+    display: none;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.texts{
+    font-size: 14px;
+    
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article:nth-child(4)>div.texts:nth-child(2)>h5:nth-child(1){
+    padding: 0px 10px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.btns{
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.btns>div.btn>i{
+    font-size: 30px;
+    line-height: 40px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.btns>div.btn>i:hover{
+    font-size: 40px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.btns>div.btn:nth-child(1){
+    top: 280px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.btns>div.btn:nth-child(2){
+    top: 280px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.btns>div.btn:nth-child(1){
+    left: 149px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.btns>div.btn:nth-child(2){
+    right: 168px;
+}
+
+/* 푸터 */
+
+div.ftrWrap{
+    margin-top: 40px;
+}
+div.ftrWrap>div.footer{
+    width: 90%;
+    max-width: 700px;
+    padding: 40px 0px;
+}
+div.ftrWrap>div.footer h3{
+    font-size: 26px;
+}
+div.ftrWrap>div.footer li{
+    font-size: 12px;
+    line-height: 20px;
+}
+div.ftrWrap>div.footer>div.info>p{
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    height: 40px;
+    width: calc(100% / 3 * 2.2);
+}
+div.ftrWrap>div.footer>div.info>div.sns{
+    font-size: 26px;
+    margin-top: 20px;
+}
+div.ftrWrap>div.footer>div.info>div.sns>i{
+    margin-right: 0px;
+}
+div.ftrWrap>div.footer>div.leftCorp>ul.nav>li:nth-child(1){
+    margin-top: -10px;
+}
+div.ftrWrap>div.footer>div.leftCorp>ul.nav>li:nth-child(1)~li{
+    margin-top: 10px;
+}
+div.ftrWrap>div.footer>div.rightCorp>div.corp>ul{
+    margin-right: 45px;
+}
+div.ftrWrap>div.footer>div.rightCorp>h3{
+    margin-left: 10px;
+}
+div.ftrWrap>div.footer>div.rightCorp>div.corp:nth-child(2)>ul>li{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+div.ftrWrap>div.footer>div.rightCorp>div.corp:nth-child(2)>ul>li:nth-child(1){
+    margin-top: -10px;
+}
+

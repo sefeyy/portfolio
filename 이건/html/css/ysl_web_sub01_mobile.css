@@ -1,0 +1,158 @@
+div.hdrWrap>div.header>h1{
+    font-size: 16px;
+}
+div.hdrWrap>div.header>ul.nav>li{
+    font-size: 12px;
+    margin-left: 8px;
+}
+div.hdrWrap>div.header>ul.nav>li>i{
+    font-size: 16px;
+}
+/* 메인 */
+div.mainWrap{
+    height: 320px;
+}
+div.mainWrap>div.main>h2{
+    font-size: 20px;
+    padding-top: 0px;
+    line-height: 80px;
+    padding-left: 10px;
+}
+div.mainWrap>div.main>div.btnTop>div.btn>i{
+    font-size: 24px;
+    line-height: 40px;
+}
+div.mainWrap>div.main>div.btnTop>div.btn:nth-child(1){
+    width: calc(100% / 4 * 0.5);
+}
+div.mainWrap>div.main>div.btnTop>div.btn:nth-child(2){
+    width: calc(100% / 4 * 0.5);
+}
+div.mainWrap>div.main>div.btnBtm>div.btn{
+    width: calc(100% / 4 * 1.5);
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+/* 컨텐츠1 */
+div.cntWrap{
+    margin-top: 20px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(1)~div.article{
+    margin-top: 220px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i1{
+    height: 240px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i2{
+    height: 240px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i3{
+    height: 240px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i4{
+    height: 240px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i5{
+    height: 240px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i6{
+    height: 240px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(6){
+    height: 0px;
+}
+/* 컨텐츠1 텍스트 */
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts{
+    font-size: 18px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article:nth-child()>div.texts{
+    margin-top: -280px;
+    margin-left: 5px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(1)~div.article>div.texts{
+    margin-top: -280px;
+    margin-left: 5px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(1)>div.texts{
+    margin-top: -280px;
+    margin-left: 5px;
+}
+
+/* 컨텐츠2 */
+div.cntWrap:nth-child(4){
+    margin-top: 240px;
+}
+div.cntWrap>div.content.cnt02>div.header>h4{
+    margin-top: 0px;
+}
+div.cntWrap>div.content.cnt02>div.section{
+    margin-top: 0px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article{
+    width: calc(100vw - 20px);
+    margin: 0px 10px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.image.i2{
+    height: 280px;
+    background-size: 50%;
+    background-position: bottom;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.image.i2:hover{
+    height: 280px;
+    background-size: 50%;
+    background-position: bottom;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article:nth-child(2)~div.article{
+    display: none;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.texts{
+    font-size: 10px;
+    line-height: 20px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.texts{
+    margin-top: -80px;
+    height: 40px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.texts:nth-child(2)>h5:nth-child(2){
+    margin-top: 0px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.btns>div.btn:nth-child(1){
+    top: 100px;
+    left: 40px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.btns>div.btn:nth-child(2){
+    top: 100px;
+    right: 40px;
+}
+
+/* 푸터 */
+div.ftrWrap>div.footer{
+    width: 90%;
+    padding: 0px;
+}
+div.ftrWrap>div.footer h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+div.ftrWrap>div.footer>div.info{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+div.ftrWrap>div.footer>div.info>p{
+    font-size: 8px;
+    width: 100%;
+    margin-top: 0;
+    line-height: 40px;
+}
+div.ftrWrap>div.footer>div.info>div.sns{
+    margin-top: 0;
+    font-size: 20px;
+}
+div.ftrWrap>div.footer>div.leftCorp{
+    display: none;
+}
+div.ftrWrap>div.footer>div.rightCorp{
+    display: none;
+}
