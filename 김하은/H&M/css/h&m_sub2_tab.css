@@ -1,0 +1,255 @@
+/* 헤더 */
+div.hdrWrap>div.header>div.hdrRight>ul.nav{
+  display: none;
+}
+div.hdrWrap>div.header>div.hdrRight>ul.icons>li>label>i:nth-last-child(1){
+  display: block;
+  line-height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+}
+div.hdrWrap>div.header{
+  width: 90%;
+  max-width: 700px;
+}
+
+/* 네비게이션 박스 */
+input#ch{
+  display: none;
+}
+input#ch:checked+div.navboxWrap{
+  height: 30px;
+  transition: all 0.5s; 
+}
+div.navboxWrap{
+  display: block;
+  height: 0px;
+  overflow: hidden;
+}
+div.navboxWrap>div.navBox{
+  width: 90%;
+  max-width: 700px;
+}
+div.navboxWrap>div.navBox>ul.nav>li{
+  cursor: pointer;
+  font-size: 14px;
+}
+div.navboxWrap>div.navBox>ul.nav>li:hover{
+  color: #000;
+}
+
+/* 메인 */
+div.mainWrap>div.main{
+  width: 90%;
+  max-width: 700px;
+}
+div.mainWrap>div.main>div.video>video{
+  width: 100%;
+  height: 400px;
+}
+
+
+div.bnrWrap{
+  margin-top: 80px;
+}
+div.bnrWrap>div.banner{
+  width: 90%;
+  max-width: 700px;
+}
+
+
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.bnrTop{
+  height: 360px;
+  width: 100%;
+  overflow: hidden;
+}
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.bnrTop>.bnrGroup{
+  width: 400%;
+  transition: margin-left 0.5s;
+}
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.bnrTop>.bnrGroup::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.bnrTop>.bnrGroup>div.cate:hover{
+  border: none;
+}
+/* div.bnrWrap.bnrWrap01>div.banner.bnr01>div.bnrTop>div.cate:nth-child(1)~div.cate{
+  display: none;
+} */
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.bnrTop>.bnrGroup>div.cate{
+  width: 100%;
+  height: 360px;
+  float: left;
+  width: calc(100% / 4);
+}
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.bnrTop>.bnrGroup>div.cate>div.image{
+  height: 360px;
+}
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.bnrTop>.bnrGroup>div.cate>h3{
+  top: 0;
+  left: 10px;
+}
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.bnrTop>ul.btn{
+  display: block;
+  position: absolute;
+  left: 0; right: 0;
+  margin: auto;
+  width: calc(100% / 12 * 2.2);
+  min-width: 125px;
+  height: 20px;
+  margin-top: -20px;
+  text-align: center;
+}
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.bnrTop>ul.btn>li{
+  width: 15px;
+  height: 15px;
+  background-color: #ccc;
+  float: left;
+  margin: 0px 5px;
+  border-radius: 7px;
+}
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.bnrTop>ul.btn>li.on{
+  width: 40px;
+}
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.bnrBtm{
+  margin-top: 80px;
+  height: 400px;
+}
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.bnrBtm>div.menu{
+  width: calc(50% - calc(100% / 12));
+  height: 400px;
+  margin: 0px 29px;
+}
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.bnrBtm>div.menu>div.image{
+  height: 400px;
+}
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.bnrBtm>div.menu>div.texts{
+  color: red;
+}
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.bnrBtm>div.menu>div.texts>p{
+  display: none;
+}
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.bnrBtm>div.menu>div.texts{
+  position: unset;
+  margin-top: -40px;
+}
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.bnrBtm>div.menu>div.texts>h3{
+  padding-left: 10px;
+}
+
+
+
+
+div.bnrWrap.bnrWrap02>div.banner.bnr02{
+  position: relative;
+}
+div.bnrWrap.bnrWrap02>div.banner.bnr02>div.bnrLeft{
+  float: inherit;
+  width: 100%;
+}
+div.bnrWrap.bnrWrap02>div.banner.bnr02>div.bnrLeft>div.image{
+  width: 100%;
+  height: 320px;
+  margin-left: inherit;
+}
+div.bnrWrap.bnrWrap02>div.banner.bnr02>div.bnrRight{
+  width: 100%;
+  float: inherit;
+  padding: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+div.bnrWrap.bnrWrap02>div.banner.bnr02>div.bnrRight>div.image{
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: calc(100% / 8 * 4.5);
+  min-width: 400px;
+  margin: 0px -15px;
+}
+div.bnrWrap.bnrWrap02>div.banner.bnr02>div.bnrRight>div.texts>h2{
+  text-align: left;
+  margin-left: 15px;
+}
+div.bnrWrap.bnrWrap02>div.banner.bnr02>div.bnrRight>div.texts>h2>span{
+  display: inline;
+}
+div.bnrWrap.bnrWrap02>div.banner.bnr02>div.bnrRight>div.texts>p{
+  display: none;
+}
+div.bnrWrap.bnrWrap02>div.banner.bnr02>div.bnrRight>div.texts>div.btn{
+  display: none;
+}
+
+div.cntWrap{
+  margin-top: 80px;
+}
+div.cntWrap>div.content>div.header>h2{
+  font-size: 36px;
+  line-height: 80px;
+}
+div.cntWrap>div.content>div.section>div.art{
+  height: 620px;
+}
+div.cntWrap>div.content>div.section>div.art>div.article>div.image{
+  height: 240px;
+}
+div.cntWrap>div.content>div.section>div.art>div.article:nth-child(4)~div.article{
+  margin-top: 30px;
+}
+div.cntWrap>div.content>div.section>div.art>div.article>div.texts{
+  margin-top: 10px;
+}
+div.cntWrap>div.content>div.section>div.art>div.article>div.texts>h3{
+  font-size: 18px;
+  line-height: 20px;
+  height: 20px;
+}
+div.cntWrap>div.content>div.section>div.art>div.article>div.texts>h5{
+  font-size: 16px;
+  line-height: 20px;
+}
+div.cntWrap>div.content>div.section>div.btn{
+  line-height: 30px;
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+
+div.ftrWrap{
+  margin-top: 80px;
+}
+div.ftrWrap>div.footer{
+  width: 90%;
+  max-width: 700px;
+  text-align: center;
+}
+div.ftrWrap>div.footer>div.ftrTop>ul.nav{
+  display: none;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.social{
+  width: 100%;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.social>h4{
+  font-size: 12px;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.social>div.texts>h4:nth-child(2){
+  animation-duration: 0;
+  animation-iteration-count: 0;
+  margin: auto;
+  left: 0;right: 0;
+}
+div.ftrWrap>div.footer>div.ftrBtm>p:nth-child(2){
+  display: none;
+}
+div.ftrWrap>div.footer>div.ftrBtm>p{
+  width: 70%;
+  margin: 0 auto;
+  font-size: 10px;
+  line-height: 20px;
+  float: inherit;
+}

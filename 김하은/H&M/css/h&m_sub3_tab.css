@@ -1,0 +1,286 @@
+/* 헤더 */
+div.hdrWrap>div.header>div.hdrRight>ul.nav{
+    display: none;
+}
+div.hdrWrap>div.header>div.hdrRight>ul.icons>li>label>i:nth-last-child(1){
+  display: block;
+  line-height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+}
+div.hdrWrap>div.header{
+  width: 90%;
+  max-width: 700px;
+}
+
+/* 네비게이션 박스 */
+input#ch{
+  display: none;
+}
+input#ch:checked+div.navboxWrap{
+  height: 30px;
+  transition: all 0.5s; 
+}
+div.navboxWrap{
+  display: block;
+  height: 0px;
+  overflow: hidden;
+}
+div.navboxWrap>div.navBox{
+  width: 90%;
+  max-width: 700px;
+}
+div.navboxWrap>div.navBox>ul.nav>li{
+  cursor: pointer;
+  font-size: 14px;
+}
+div.navboxWrap>div.navBox>ul.nav>li:hover{
+  color: #000;
+}
+div.mainWrap{
+    height: 320px;
+}
+div.mainWrap>div.main{
+   width: 90%;
+   max-width: 700px;
+}
+
+
+  /* 컨텐츠 공통 */
+div.cntWrap{
+    margin-top: 80px;
+}
+div.cntWrap>div.content{
+   width: 90%;
+   max-width: 700px;
+}
+div.cntWrap>div.content>div.header>h2{
+    line-height: 80px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: #f00;
+}
+div.cntWrap>div.content>div.section div.article>div.image{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.cntWrap>div.content>div.section div.article>div.texts>h3{
+  line-height: 20px;
+  font-size: 18px;
+}
+div.cntWrap>div.content>div.section div.article>div.texts>h5{
+  font-size: 14px;
+  line-height: 20px;
+}
+div.cntWrap>div.content>div.section div.article>div.texts>p{
+  font-size: 12px;
+  line-height: 20px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+
+div.cntWrap>div.content.cnt01>div.header>h2{
+  text-align: center;
+}
+div.cntWrap>div.content.cnt01>div.section{
+  width: 100%;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView{
+  width: 100%;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup{
+  width: 400%;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article{
+  width: calc(100% / 4);
+  margin: 0;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image{
+  width: calc(100%/ 12 * 7);
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.texts{
+  display: block;
+  width: calc(100% / 12 * 5);
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.texts.on{
+  
+  opacity: 1;
+  animation: none;
+}
+
+
+div.cntWrap>div.content.cnt02>div.section>div.artLeft{
+    float: inherit;
+    width: 100%;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artLeft>div.article{
+    width: calc(50% - 20px);
+    height: 280px;
+    margin: 0px 10px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artLeft>div.article>div.image{
+    height: 280px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artLeft>div.article:nth-child(1){
+    margin-left: 10px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artRight{
+    width: 100%;
+    margin-top: 20px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artRight::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article{
+    width: calc(50% - 20px);
+    margin: 0px 10px;
+    float: left;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article:nth-child(1){
+    margin-top: 20px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artLeft>div.article>div.texts{
+    margin-top: 0;
+    height: 40px;
+    position: inherit;
+    text-align: left;
+    transition: none;
+    padding: 0px;
+    margin-top: 10px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artLeft>div.article:hover>div.texts::before{
+    display: none;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artLeft>div.article:hover>div.texts{
+    height: 40px;
+    padding-top: 0;
+  }
+div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article>div.texts{
+    margin-top: 0;
+    height: 40px;
+    position: inherit;
+    text-align: left;
+    transition: none;
+    padding: 0px;
+    margin-top: 10px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article:hover>div.texts::before{
+    display: none;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article:hover>div.texts{
+    height: 40px;
+    padding-top: 0;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artLeft>div.article>div.texts>h5{
+    display: none;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article>div.texts>h5{
+    display: none;
+}
+div.cntWrap>div.content.cnt02>div.section div.article>div.texts>h3>span{
+    display: inline;
+}
+div.cntWrap>div.content.cnt02>div.section div.article{
+  cursor: pointer;
+}
+
+
+div.cntWrap>div.content.cnt03>div.section::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artTop{
+    width: calc(50% - 20px);
+    margin: 0px 10px;
+    float: left;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artBtm{
+    width: calc(50% - 20px);
+    margin: 0px 10px;
+    float: left;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artTop>div.article>div.image{
+    width: 100%;
+    height: 240px;
+    float: inherit;
+    margin-left: 0;
+    cursor: pointer;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artTop>div.article>div.texts{
+    float: inherit;
+    width: 80%;
+    padding-top: 0;
+    margin: 0 auto;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artTop>div.article:hover>div.btn{
+  display: none;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artBtm>div.article{
+  position: relative;
+}
+div.cntWrap>div.content.cnt03>div.section div.article:hover>div.image{
+  opacity: 1;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artBtm>div.article>div.image{
+    width: 100%;
+    height: 240px;
+    float: inherit;
+    margin-left: 0;
+    position: absolute;
+    top: 0;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artBtm>div.article:hover>div.btn{
+  display: none;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artBtm>div.article>div.texts{
+    float: inherit;
+    position: absolute;
+    top: 240px;
+    margin: auto;
+    left: 0;right: 0;
+    width: 80%;
+    padding-top: 0;
+}
+div.cntWrap>div.content.cnt03>div.section div.article>div.texts>p{
+    display: none;
+}
+
+div.ftrWrap{
+    margin-top: 80px;
+  }
+  div.ftrWrap>div.footer{
+    width: 90%;
+    max-width: 700px;
+    text-align: center;
+  }
+  div.ftrWrap>div.footer>div.ftrTop>ul.nav{
+    display: none;
+  }
+  div.ftrWrap>div.footer>div.ftrTop>div.social{
+    width: 100%;
+  }
+  div.ftrWrap>div.footer>div.ftrTop>div.social>h4{
+    font-size: 12px;
+  }
+  div.ftrWrap>div.footer>div.ftrTop>div.social>div.texts>h4:nth-child(2){
+    animation-duration: 0;
+    animation-iteration-count: 0;
+    margin: auto;
+    left: 0;right: 0;
+  }
+  div.ftrWrap>div.footer>div.ftrBtm>p:nth-child(2){
+    display: none;
+  }
+  div.ftrWrap>div.footer>div.ftrBtm>p{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 10px;
+    line-height: 20px;
+    float: inherit;
+  }

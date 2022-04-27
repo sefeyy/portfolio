@@ -1,0 +1,220 @@
+/* mnt */
+div.mntopWrap{
+    display: none;
+}
+
+/* hdr */
+div.hdrWrap>div.header{
+    width: 90%;
+    max-width: 700px;
+}
+div.hdrWrap>div.header>div.logo{
+    width: calc(100% / 8 * 3);
+    height: 80px;
+    margin-top: 0;
+}
+div.hdrWrap>div.header>ul.nav>li{
+    display: none;
+}
+div.hdrWrap>div.header>ul.nav>li:nth-last-child(1){
+    display: block;
+}
+div.hdrWrap>div.header>div.barMenu{
+    width: 40%;
+}
+div.hdrWrap>div.header>div.barMenu>ul.barM{
+    background-color: #ccc;
+}
+
+/* main */
+div.mainWrap>div.main{
+    width: 90%;
+    max-width: 700px; 
+}
+div.mainWrap>div.main>div.texts>h5{
+    margin-top: 20px;
+}
+div.mainWrap>div.main>div.texts>p{
+    width: calc(100% / 8 * 3.6);
+    font-size: 12px;
+}
+div.mainWrap>div.main>div.searchBar{
+    display: none;
+}
+
+/* cnt01 */
+div.cntWrap>div.content.cnt01>div.header>p{
+    margin-top: 0;
+}
+div.cntWrap>div.content.cnt01>div.section{
+    margin-top: -90px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artTop{
+    width: 72%;
+    margin: 0 auto;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article{
+    width: calc(100% / 2 - 20px);
+    margin: 20px 10px
+}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm{
+    width: 72%;
+    margin: 0 auto;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article{
+    width: calc(100% / 2 - 20px);
+    margin: 20px 10px
+}
+div.cntWrap>div.content.cnt01>div.section div.article>div.image{
+    position: relative;
+}
+div.cntWrap>div.content.cnt01>div.section div.article:hover>div.image>i{
+    display: none;
+}
+div.cntWrap>div.content.cnt01>div.section div.article>div.image>i{
+    display: block;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    font-size: 25px;
+    color: #626262;
+    font-weight: 700;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article>div.texts:hover>i{
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    font-weight: 700;
+    right: 5px;
+    bottom: 5px;
+    color: #626262;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article>div.texts:hover>i{
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    font-weight: 700;
+    right: 5px;
+    bottom: 5px;
+    color: #626262;
+}
+div.cntWrap>div.content.cnt01>div.section>div>div.article>div.texts>div.btn{
+    display: none;
+}
+
+/* bnr */
+div.bnrWrap>div.banner{
+    width: 100%;
+    max-width: none;
+}
+div.bnrWrap>div.banner>h2{
+    width: 75%;
+    margin: 0 auto;
+    line-height: 80px;
+}
+div.bnrWrap>div.banner>div.texts>h5{
+    text-align: center;
+    float: none;
+}
+div.bnrWrap>div.banner>div.texts>div.btn::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+div.bnrWrap>div.banner>div.texts>div.btn{
+    float: none;
+    width: 10%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+div.bnrWrap>div.banner>div.texts>div.btn>span{
+    display: none;
+}
+div.bnrWrap>div.banner>div.texts>div.btn>i{
+    float: left;
+    padding-left: 35px;
+    line-height: 40px;
+}
+
+/* cnt02 */
+div.cntWrap:nth-child(6){
+    margin-top: 0;
+}
+div.cntWrap>div.content.cnt02>div.header{
+    padding: 80px 0px 200px;
+}
+div.cntWrap>div.content.cnt02>div.header>p{
+    width: 45%;
+}
+div.cntWrap>div.content.cnt02>div.artView{
+    width: 90%;
+    max-width: 700px;
+    margin-top: -160px;
+}
+div.cntWrap>div.content.cnt02>div.artView>div.artGroup{
+    width: 400%;
+}
+div.cntWrap>div.content.cnt02>div.artView>div.artGroup>div.article{
+    width: calc(100% / 8 - 20px);
+}
+div.cntWrap>div.content.cnt02>div.artView>div.artGroup>div.article:nth-last-child(1){
+    display: none;
+}
+div.cntWrap>div.content.cnt02>div.artView>div.artGroup>div.article>div.texts>p{
+    height: 40px;
+    overflow: hidden;
+}
+div.cntWrap>div.content.cnt02>div.btns{
+    width: 90%;
+    max-width: 700px;
+}
+div.cntWrap>div.content.cnt02>div.btns>div.btn{
+    left: -35px;
+}
+div.cntWrap>div.content.cnt02>div.pagbtn{
+    width: 90%;
+    max-width: 700px;
+}
+div.cntWrap>div.content.cnt02>div.pagbtn>ul.paging{
+    width: 20%;
+}
+div.cntWrap>div.content.cnt02>div.pagbtn>ul.paging>li:nth-child(4)~li{
+    display: none;
+}
+
+/* ftr */
+div.ftrWrap{
+    margin-top: 60px;
+    padding: 40px 0px;
+}
+div.ftrWrap>div.footer{
+    width: 90%;
+    max-width: 700px;
+}
+div.ftrWrap>div.footer>div.ftrTop{
+    width: 100%;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.logo{
+    float: none;
+    margin: 0 auto;
+    width: calc(100% / 8 * 6);
+    height: 57px;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.info{
+    float: none;
+    text-align: center;
+    margin-top: 25px;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.info{
+    display: none;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.sns{
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.sns>i{
+    margin-left: 0;
+    margin: 0px 5px;
+    text-align: center;
+}

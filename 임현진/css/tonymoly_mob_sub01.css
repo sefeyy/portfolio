@@ -1,0 +1,124 @@
+/* hdr */
+div.hdrWrap>div.header>div.logo{
+    width: calc(100% / 4 * 2);
+    height: 20px;
+    margin-top: 20px;
+}
+div.hdrWrap>div.header>ul.nav>li{
+    line-height: 40px;
+    margin-top: 10px;
+}
+div.hdrWrap>div.header>ul.nav>li>i{
+    font-size: 20px;
+}
+div.hdrWrap>div.header>div.barMenu{
+    width: 50%;
+}
+div.hdrWrap>div.header>div.barMenu>ul.barM{
+    background-color: #ccc;
+}
+div.hdrWrap>div.header>div.barMenu>ul.barM>li:hover{
+    font-size: 17px;
+}
+div.hdrWrap>div.header>div.barMenu>ul.barM>li{
+    font-size: 14px;
+    line-height: 40px;
+}
+
+
+/* main */
+div.mainWrap>div.main>div.texts>h2{
+    font-size: 30px;
+}
+div.mainWrap>div.main>div.texts>p{
+    display: none;
+}
+div.mainWrap>div.main>div.texts>h5{
+    font-size: 14px;
+}
+div.mainWrap>div.main>div.texts>h5>br{
+    display: block;
+}
+
+/* tab */
+div.tabBoxWrap>div.tabBox>ul.tab>li{
+    width: calc(100% / 3);
+    font-size: 18px;
+}
+div.tabBoxWrap>div.tabBox>ul.tab>li:hover{
+    font-size: 20px;
+}
+div.tabBoxWrap>div.tabBox>ul.tab>li:nth-child(1){
+    margin-left: 0;
+}
+div.tabBoxWrap>div.tabBox>ul.tab>li:nth-child(2){
+    margin-left: 0;
+}
+div.tabBoxWrap>div.tabBox>ul.tab>li:nth-child(3){
+    margin-left: 0;
+}
+div.cntWrap>div.content>div.section div.article>div.texts>div.icon>div.iRight>i:hover{
+    color: #000;
+    animation-name: none;
+}
+
+
+/* cnt */
+div.cntWrap>div.content>div.section{
+    height: 920px;
+}
+div.cntWrap>div.content>div.section div.article{
+    width: 100%;
+}
+div.cntWrap>div.content>div.section div.article:nth-child(1){
+    margin-top: 0;
+}
+div.cntWrap>div.content>div.section div.article>div.texts>h3{
+    font-size: 16px;
+    line-height: 80px;
+}
+div.cntWrap>div.content>div.section div.article>div.texts{
+    padding-top: 20px;
+}
+div.cntWrap>div.content>div.section div.article>div.texts>h5{
+    margin-top: 0;
+    line-height: 40px;
+}
+div.cntWrap>div.content>div.section div.article>div.texts>div.icon{
+    margin-top: 20px;
+}
+div.cntWrap>div.content>div.section div.article>div.texts>div.icon>div.iLeft{
+    padding-left: 10px;
+}
+div.cntWrap>div.content>div.section div.article>div.texts>div.icon>div.iRight{
+    padding-right: 20px;
+}
+
+/* ftr */
+div.ftrWrap>div.footer>div.ftrTop>div.logo{
+    height: 40px;
+    width: 100%;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.info{
+    margin-top: 20px;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.info>h3{
+    font-size: 20px;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.info>p{
+    display: none;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.sns>h3{
+    font-size: 20px;
+}
+
+div.lightBox{
+    width: 40vw;
+    height: 15vh;
+}
+div.lightBox>div.texts{
+    width: 40vw;
+    height: 6vh;
+    font-size: 14px;
+    line-height: 20px;
+}

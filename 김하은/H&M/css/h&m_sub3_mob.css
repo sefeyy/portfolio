@@ -1,0 +1,183 @@
+div.hdrWrap>div.header>div.hdrRight>ul.icons>li{
+    font-size: 14px;
+  }
+  input#ch:checked+div.navboxWrap{
+    height: 20px;
+  }
+  div.navboxWrap>div.navBox>ul.nav>li{
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  
+
+  div.mainWrap{
+    height: 480px;
+  }
+  div.mainWrap>div.main>div.texts{
+    display: block;
+    padding-top: 380px;
+  }
+  div.mainWrap>div.main>div.texts>h2{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+  }
+  div.mainWrap>div.main>div.texts>h5{
+    font-size: 12px;
+    line-height: 20px;
+    height: 40px;
+    overflow: hidden;
+  }
+  div.mainWrap>div.main>ul.btn{
+    display: block;
+    width: calc(100%/ 4);
+    min-width: 70px;
+    height: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  div.mainWrap>div.main>ul.btn>li{
+    width: 10px;
+    height: 10px;
+    background-color: #222;
+    float: left;
+    border-radius: 5px;
+    margin: 0px 2px;
+  }
+  div.mainWrap>div.main>ul.btn>li.on{
+    width: 20px;
+  }
+
+  div.cntWrap{
+      margin-top: 40px;
+  }
+  div.cntWrap>div.content>div.header>h2{
+      font-size: 18px;
+      line-height: 40px;
+  }
+  div.cntWrap>div.content>div.section div.article>div.texts>h3{
+      font-size: 14px;
+      line-height: 20px;
+      height: 40px;
+  }
+  div.cntWrap>div.content>div.section div.article>div.texts>h5{
+      font-size: 12px;
+      line-height: 20px;
+  }
+
+  div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.texts>p{
+    display: none;
+  }
+  div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article{
+    position: relative;
+  }
+  div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.texts{
+    position: absolute;
+    bottom: 0; top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 40px;
+    padding: 0;
+  }
+  div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.texts>h3{
+    line-height: 20px;
+    text-shadow: 2px 2px 3px #ccc;
+  }
+  div.cntWrap>div.content.cnt01>div.section{
+    height: 200px;
+  }
+  div.cntWrap>div.content.cnt01>div.section>div.artView{
+    height: 200px;
+  }
+  div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image{
+    width: 100%;
+    height: 200px;
+  }
+
+
+
+  div.cntWrap>div.content.cnt02>div.section>div.artLeft>div.article{
+      width: 100%;
+      height: 240px;
+      margin: inherit;
+      float: inherit;
+  }
+  div.cntWrap>div.content.cnt02>div.section>div.artLeft>div.article:nth-child(1){
+      margin: inherit;
+  }
+  div.cntWrap>div.content.cnt02>div.section>div.artRight{
+      margin: 0;
+  }
+  div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article{
+      width: 100%;
+      height: 240px;
+      margin: inherit;
+      float: inherit;
+  }
+  div.cntWrap>div.content.cnt02>div.section>div.artLeft>div.article>div.image{
+      height: 200px;
+  }
+  div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article>div.image{
+      height: 200px;
+  }
+  div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article:nth-child(2){
+      margin: 0;
+  }
+  div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article:nth-child(1){
+      margin: 0;
+  }
+
+
+  div.cntWrap>div.content.cnt03>div.section>div.artTop>div.article>div.image{
+      height: 160px;
+  }
+  div.cntWrap>div.content.cnt03>div.section>div.artBtm>div.article>div.image{
+      height: 160px;
+  }
+  div.cntWrap>div.content.cnt03>div.section div.article>div.texts>h3{
+      line-height: 20px;
+      margin-top: 10px;
+  }
+  div.cntWrap>div.content.cnt03>div.section div.article>div.texts>h5{
+      line-height: 20px;
+  }
+  div.cntWrap>div.content.cnt03>div.section>div.artBtm>div.article>div.texts{
+      top: 158px;
+  }
+  div.cntWrap>div.content.cnt03>div.section div.article{
+    height: 240px;
+  }
+
+
+div.ftrWrap{
+  margin-top: 40px;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.social>div.texts>h4:nth-child(1){
+  font-size: 12px;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.social>div.texts>h4{
+  font-size: 10px;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.social>div.sns{
+  font-size: 20px;
+  line-height: 20px;
+  margin-top: 20px;
+}
+div.ftrWrap>div.footer>div.ftrBtm>p{
+  font-size: 10px;
+  height: 80px;
+  overflow: hidden;
+}
+div.ftrWrap>div.footer>div.ftrBtm{
+  margin-top: 20px;
+}
+div.ftrWrap>div.footer{
+  padding: 20px 0px 40px 0px;
+}
+div.ftrWrap>div.footer>h1{
+  margin-top: 20px;
+  line-height: 20px;
+}

@@ -1,0 +1,201 @@
+body,html{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+div.hdrWrap>div.header>div.logo{
+    width: calc(100% / 4 * 2);
+    height: 20px;
+    margin-top: 20px;
+}
+div.hdrWrap>div.header>ul.nav>li{
+    line-height: 40px;
+    margin-top: 10px;
+}
+div.hdrWrap>div.header>div.barMenu{
+    width: 50%;
+}
+div.hdrWrap>div.header>div.barMenu>ul.barM{
+    background-color: #ccc;
+}
+div.hdrWrap>div.header>div.barMenu>ul.barM>li:hover{
+    font-size: 17px;
+}
+div.hdrWrap>div.header>div.barMenu>ul.barM>li{
+    font-size: 14px;
+    line-height: 40px;
+}
+
+/* main */
+div.mainWrap>div.main>div.texts>p{
+    display: none;
+}
+div.mainWrap>div.main>div.texts>h5>br{
+    display: block;
+}
+
+/* cnt01 */
+div.cntWrap>div.content.cnt01{
+    position: relative;
+}
+div.cntWrap>div.content.cnt01>div.header{
+    padding: 40px 0px;
+}
+div.cntWrap>div.content.cnt01>div.section{
+    margin-top: 0;
+    width: 80%;
+    overflow: hidden;
+}
+/* arttop */
+div.cntWrap>div.content.cnt01>div.section>div.artTop{}
+div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article:nth-child(1){
+    margin-top: 0;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+/* artbtm */
+div.cntWrap>div.content.cnt01>div.section>div.artBtm{
+    display: none;
+}
+
+/* bnr */
+div.bnrWrap{
+    margin-top: 40px;
+}
+div.bnrWrap>div.banner>h2{
+    font-size: 17px;
+    line-height: 40px;
+}
+div.bnrWrap>div.banner>div.texts>h5{
+    font-size: 12px;
+    line-height: 40px;
+    margin-left: 0;
+}
+div.bnrWrap>div.banner>div.texts>div.btn>span{
+    display: none;
+}
+div.bnrWrap>div.banner>div.texts>div.btn{
+    width: 15%;
+    margin-top: 0;
+    line-height: 25px;
+}
+div.bnrWrap>div.banner>div.texts>div.btn>i{
+    padding: 5px 20px;
+    line-height: 20px;
+}
+
+/* cnt02 */
+div.cntWrap>div.content.cnt02>div.header{
+    padding: 40px 0px;
+}
+div.cntWrap>div.content>div.header>h2{
+    width: 90%;
+    font-size: 40px;
+    margin: 0 auto;
+    line-height: 40px;
+}
+div.cntWrap>div.content.cnt02>div.header>p{
+    display: none;
+}
+div.cntWrap:nth-child(6){
+    margin-top: 40px;
+}
+div.cntWrap>div.content.cnt02>div.btns{
+    display: none;
+}
+div.cntWrap>div.content.cnt02>div.pagbtn>ul.paging{
+    padding-left: 0;
+    width: 50%;
+    max-width: 700px;
+}
+div.cntWrap>div.content.cnt02>div.pagbtn{
+    width: 80%;
+}
+div.cntWrap>div.content.cnt02>div.pagbtn>ul.paging>li.on{
+    width: 20px;
+}
+div.cntWrap>div.content.cnt02>div.pagbtn>ul.paging>li{
+    width: 10px;
+    height: 10px;
+    background-color: #bfbfbf;
+    margin: 0px 5px;
+    border-radius: 5px;
+}
+div.cntWrap>div.content.cnt02>div.artView{
+    width: 60%;
+    margin-top: 0; 
+}
+div.cntWrap>div.content.cnt02>div.artView>div.artGroup{
+    width: 800%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+div.cntWrap>div.content.cnt02>div.artView>div.artGroup>div.article{}
+div.cntWrap>div.content.cnt02>div.artView>div.artGroup>div.article>div.images>div.image{
+    float: none;
+    width: 100%;
+}
+div.cntWrap>div.content.cnt02>div.artView>div.artGroup>div.article>div.images>div.pdname{
+    float: none;
+    width: 100%;
+    margin-top: 30px;
+}
+div.cntWrap>div.content.cnt02>div.artView>div.artGroup>div.article>div.images>div.pdname>h3{
+    font-size: 15px;
+}
+div.cntWrap>div.content.cnt02>div.artView>div.artGroup>div.article>div.images>div.pdname>h5{
+    margin-left: 85px;
+    font-size: 12px;
+}
+div.cntWrap>div.content.cnt02>div.artView>div.artGroup>div.article>div.images>div.pdname>i{
+    font-size: 12px;
+}
+div.cntWrap>div.content.cnt02>div.artView>div.artGroup>div.article>div.texts{
+    margin-top: 20px;
+}
+div.cntWrap>div.content.cnt02>div.artView>div.artGroup>div.article>div.texts>p{
+    text-align: center;
+    font-size: 12px;
+}
+div.cntWrap>div.content.cnt02>div.artView>div.artGroup>div.article>div.texts::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+div.cntWrap>div.content.cnt02>div.artView>div.artGroup>div.article>div.texts>div.btn{
+    float: left;
+    margin-top: 10px;
+    font-size: 12px;
+}
+div.cntWrap>div.content.cnt02>div.artView>div.artGroup>div.article>div.texts>div.logo{
+    float: right;
+    margin-top: 10px;
+    font-size: 12px;
+}
+div.cntWrap>div.content.cnt02>div.pagbtn>ul.paging>li:nth-child(4)~li{
+    display: block;
+}
+
+/* ftr */
+div.ftrWrap{
+    margin-top: 40px;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.logo{
+    height: 40px;
+    width: 100%;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.info{
+    margin-top: 20px;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.info>h3{
+    font-size: 20px;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.info>p{
+    display: none;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.sns>h3{
+    font-size: 20px;
+}

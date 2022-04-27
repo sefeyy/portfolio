@@ -1,0 +1,286 @@
+
+/* hdr */
+div.hdrWrap>div.header{}
+div.hdrWrap>div.header>div.logo{
+    width: calc(100% / 4 * 2);
+    height: 20px;
+}
+div.hdrWrap>div.header>ul.nav>li>i{
+    font-size: 20px;
+}
+div.hdrWrap>div.header>div.barMenu{
+    width: 50%;
+}
+div.hdrWrap>div.header>div.barMenu>ul.barM{
+    background-color: #ccc;
+}
+div.hdrWrap>div.header>div.barMenu>ul.barM>li:hover{
+    font-size: 17px;
+}
+div.hdrWrap>div.header>div.barMenu>ul.barM>li{
+    font-size: 14px;
+    line-height: 40px;
+}
+
+/* main */
+div.mainWrap>div.main{
+    padding: 80px 0px;
+}
+div.mainWrap>div.main>div.mainLeft{
+    width: 100%;
+}
+div.mainWrap>div.main>div.mainLeft>div.image{
+    height: 240px;
+}
+div.mainWrap>div.main>div.mainLeft>div.texts::before{
+    height: 80px;
+    bottom: 0px;
+}
+div.mainWrap>div.main>div.mainLeft>div.texts{
+    width: calc(100% / 4 * 1.4);
+    height: 80px;
+    margin-top: -82px;
+    margin-left: 2px;
+    padding: 15px;
+    text-align: center;
+}
+div.mainWrap>div.main>div.mainLeft>div.texts>h3{
+    font-size: 21px;
+}
+div.mainWrap>div.main>div.mainLeft>div.texts>p{
+    display: none;
+}
+div.mainWrap>div.main>div.mainRight{
+    width: 100%;
+}
+div.mainWrap>div.main>div.mainRight>div.image{
+    height: 240px;
+    background-position: bottom;
+}
+div.mainWrap>div.main>div.mainRight>div.texts::before{
+    height: 80px;
+    bottom: 0;
+}
+div.mainWrap>div.main>div.mainRight>div.texts{
+    width: calc(100% / 4 * 1.4);
+    padding: 10px;
+    text-align: center;
+    margin-top: -74px;
+    margin-right: 2px;
+}
+div.mainWrap>div.main>div.mainRight>div.texts>h3{
+    font-size: 20px;
+}
+div.mainWrap>div.main>div.mainRight>div.texts>p{
+    display: none;
+}
+
+/* cnt01 */
+div.cntWrap>div.content.cnt01>div.header{
+    padding: 40px 20px;
+}
+div.cntWrap>div.content.cnt01>div.header>h2{
+    padding: 0;
+    line-height: 40px;
+    font-size: 25px;
+}
+div.cntWrap>div.content.cnt01>div.header>p{
+    display: none;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.image{
+    float: none;
+    width: 100%;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.image>div.ovrGridImg{
+    width: 100vw;
+    margin-left: min(calc((100vw - 700px) / -2), calc((100vw - 90vw) / -2));
+    height: 130px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts{
+    float: none;
+    width: 100%;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>div.ovrGridTxt{
+    width: 100vw;
+    height: 120px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>div.text{
+    margin-top: -120px;
+    padding: 0;
+    text-align: left;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>div.text>h3{
+    font-size: 24px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>div.text>h5{
+    font-size: 14px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>div.text>p{
+    display: none;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(2)>div.texts>div.ovrGridTxt{
+    margin-left: min(calc((100vw - 700px) / -2), calc((100vw - 90vw) / -2));
+}
+div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(1)>div.texts>div.text>h3{
+    padding-top: 35px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(3)>div.texts>div.text{
+    padding-bottom: 20px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(3)>div.texts>div.text>h5{
+    margin: 0;
+    margin-top: 20px;
+    font-size: 13px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(3)>div.texts>div.ovrGridTxt{
+    height: 160px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(2)>div.texts>div.text{
+    padding: 0;
+    text-align: right;
+    padding-top: 40px;
+}
+/* art02 position*/
+div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(2){
+    position: relative;
+    height: 249px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(2)>div.image{
+    position: absolute;
+    bottom: 0;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(2)>div.texts>{
+    position: absolute;
+    top: 0;
+}
+
+/* cnt02 */
+div.cntWrap>div.content.cnt02>div.header>h2{
+    width: 100%;
+    background-color: #fff;
+    font-size: 25px;
+}
+div.cntWrap>div.content.cnt02>div.header>p{
+    display: none;
+}
+div.cntWrap>div.content.cnt02>div.header>h5{
+    margin-top: -10px;
+    font-size: 14px;
+}
+div.cntWrap>div.content.cnt02>div.section{
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+div.cntWrap>div.btn{
+    width: 80%;
+    left: 10%;
+    font-size: 30px;
+    top: 80px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artGroup{
+    width: 800%;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artGroup{}
+div.cntWrap>div.content.cnt02>div.section>div.artGroup>div.image{
+    height: 350px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article{
+    width: calc(100% / 2);
+    margin: 0;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article:nth-child(2)~div.article{
+    margin-top: 0;
+}
+
+/* cnt03 */
+div.cntWrap>div.content.cnt03{
+    width: 100%;
+    padding-bottom: 40px;
+}
+div.cntWrap>div.content.cnt03>div.header>h2{
+    width: 100%;
+    background-color: #e5ddcf;
+    line-height: 30px;
+    font-size: 25px;
+}
+div.cntWrap>div.content.cnt03>div.header>h5{
+    display: none;
+}
+div.cntWrap>div.content.cnt03>div.header>p{
+    display: none;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artRight{
+    display: none;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article{
+    height: 160px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article>div.image{
+    height: 160px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article>div.texts>h3{
+    font-size: 14px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article>div.texts>p{
+    display: none;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article:hover>div.texts:before{
+    font: 160px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article:hover>div.texts{
+    height: 160px;
+    margin-top: -100px;
+    padding: 0;
+}
+
+/* cnt04 */
+div.cntWrap>div.content.cnt04>div.header>h2{
+    width: 42%;
+    font-size: 20px;
+    line-height: 30px;
+    top: 20px;
+    right: 0;;
+}
+div.cntWrap>div.content.cnt04>div.section>div.article>div.texts>h3{
+    display: none;
+}
+div.cntWrap>div.content.cnt04>div.section>div.article>div.image{
+    height: 160px;
+}
+div.cntWrap>div.content.cnt04>div.section>div.article>div.image.i1{
+    width: 50%;
+}
+div.cntWrap>div.content.cnt04>div.section>div.article>div.texts{
+    width: 50%;
+}
+div.cntWrap>div.content.cnt04>div.section>div.article>div.texts{
+    float: right;
+    margin: 0;
+    margin-top: -90px;
+}
+div.cntWrap>div.content.cnt04>div.section>div.article>div.texts>div.btn{
+    width: 60%;
+    margin-right: 15px;
+    line-height: 30px;
+    font-size: 16px;
+    height: 30px;
+}
+
+/* ftr */
+div.ftrWrap>div.footer>div.ftrTop>div.logo{
+    height: 40px;
+    width: 100%;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.info{
+    margin-top: 20px;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.info>h3{
+    font-size: 20px;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.info>p{
+    display: none;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.sns>h3{
+    font-size: 20px;
+}

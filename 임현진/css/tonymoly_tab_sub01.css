@@ -1,0 +1,156 @@
+/* mnt */
+div.mntopWrap{
+    display: none;
+}
+
+/* hdr */
+div.hdrWrap>div.header{
+    width: 90%;
+    max-width: 700px;
+}
+div.hdrWrap>div.header>div.logo{
+    width: calc(100% / 8 * 3);
+    height: 80px;
+    margin-top: 0;
+}
+div.hdrWrap>div.header>ul.nav>li{
+    display: none;
+}
+div.hdrWrap>div.header>ul.nav>li:nth-last-child(1){
+    display: block;
+}
+div.hdrWrap>div.header>div.barMenu{
+    width: 40%;
+}
+div.hdrWrap>div.header>div.barMenu>ul.barM{
+    background-color: #ccc;
+}
+
+/* main */
+div.mainWrap>div.main{
+    width: 90%;
+    max-width: 700px; 
+}
+div.mainWrap>div.main>div.texts>h5{
+    margin-top: 20px;
+}
+div.mainWrap>div.main>div.texts>p{
+    width: calc(100% / 8 * 3.6);
+    font-size: 12px;
+}
+div.mainWrap>div.main>div.searchBar{
+    display: none;
+}
+
+/* tab box */
+div.tabBoxWrap>div.tabBox{
+    width: 90%;
+    max-width: 700px; 
+}
+div.tabBoxWrap>div.tabBox>ul.tab>li{
+    width: calc(100% / 8 * 1);
+}
+div.tabBoxWrap>div.tabBox>ul.tab>li:nth-child(1){
+    margin-left: 70px;
+}
+div.tabBoxWrap>div.tabBox>ul.tab>li:nth-child(2){
+    margin-left: 160px;
+}
+div.tabBoxWrap>div.tabBox>ul.tab>li:nth-child(3){
+    margin-left: 160px;
+}
+div.cntWrap>div.content>div.section div.article>div.texts>div.icon>div.iRight>i:hover{
+    color: #000;
+    animation-name: none;
+}
+
+/* cnt */
+div.cntWrap{
+    padding: 40px 0px;
+}
+div.cntWrap>div.content{
+    width: 90%;
+    max-width: 700px; 
+}
+div.cntWrap>div.content>div.section{
+    height: 950px;
+    overflow: hidden;
+}
+div.cntWrap>div.content>div.section div.article{
+    width: calc(100% / 2 - 20px);
+}
+div.cntWrap>div.content>div.section div.article>div.texts>div.icon{
+    margin-top: 40px;
+}
+div.cntWrap>div.content>div.section>div.article:nth-child(3){
+    margin-top: 40px;
+}
+div.cntWrap>div.content>div.section>div.article:nth-child(4){
+    margin-top: 40px;
+}
+div.cntWrap>div.content>div.section>div.article>div.image>div.wish{
+    width: 60%;
+}
+
+/* more btn */
+div.cntWrap>div.content>div.btn{
+    width: 90%;
+    max-width: 700px;  
+    background-color: #f8f8f8;
+}
+div.cntWrap>div.content>div.btn>span{
+    color: #bfbfbf;
+}
+div.cntWrap>div.content>div.btn>i{
+    color: #bfbfbf;
+}
+div.cntWrap>div.content>div.btn>span{
+    padding: 0;
+}
+
+/* ftr */
+div.ftrWrap{
+    margin-top: 0;
+    padding: 40px 0px;
+}
+div.ftrWrap>div.footer{
+    width: 90%;
+    max-width: 700px;
+}
+div.ftrWrap>div.footer>div.ftrTop{
+    width: 100%;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.logo{
+    float: none;
+    margin: 0 auto;
+    width: calc(100% / 8 * 6);
+    height: 57px;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.info{
+    float: none;
+    text-align: center;
+    margin-top: 25px;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.info{
+    display: none;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.sns{
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.sns>i{
+    margin-left: 0;
+    margin: 0px 5px;
+    text-align: center;
+}
+
+div.lightBox{
+    width: 30vw;
+    height: 10vh;
+}
+div.lightBox>div.texts{
+    width: 30vw;
+    height: 6vh;
+    font-size: 20px;
+}

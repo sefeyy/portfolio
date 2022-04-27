@@ -1,0 +1,395 @@
+div.hdrWrap>div.header>div.hdrRight>ul.icons>li{
+  font-size: 14px;
+}
+div.navboxWrap>div.navBox>ul.nav{
+  font-size: 12px;
+}
+div.navboxWrap>div.navBox>ul.nav>li{
+  line-height: 20px;
+  font-size: 12px;
+}
+
+input#ch:checked+div.navboxWrap{
+  height: 20px;
+}
+
+div.mainWrap{
+  height: 440px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../images/main_mob_main.jfif');
+}
+div.mainWrap>div.main{
+  width: 90%;
+  padding-top: 360px;
+  /* padding-bottom: 40px; */
+}
+div.mainWrap>div.main>h2{
+  display: block;
+  color: #fff;
+  line-height: 20px;
+  font-size: 18px;
+  height: 20px;
+  overflow: hidden;
+}
+div.mainWrap>div.main>h5{
+  display: block;
+  color: #fff;
+  line-height: 20px;
+  font-size: 10px;
+  height: 40px;
+  overflow: hidden;
+}
+div.mainWrap>div.main>ul.btn{
+  display: block;
+  width: calc(100% / 4 * 0.5);
+  min-width: 70px;
+  height: 20px;
+  margin: 0 auto;
+}
+div.mainWrap>div.main>ul.btn>li{
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  float: left;
+  border-radius: 5px;
+  margin: 0px 2px;
+}
+div.mainWrap>div.main>ul.btn>li.on{
+  width: 20px;
+}
+
+
+
+
+div.cntWrap{
+  margin-top: 40px;
+}
+div.cntWrap>div.content{
+  width: 90%;
+}
+
+
+
+div.cntWrap:nth-child(5){
+  margin-top: 20px;
+}
+div.cntWrap>div.content.cnt01{
+  position: relative;
+}
+div.cntWrap>div.content.cnt01>div.header>div.btns{
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  margin: auto;
+  bottom: 0;
+  top: 0%;
+  left: 0;
+  right: 0;
+}
+div.cntWrap>div.content.cnt01>div.header>div.btns>.btn{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: inherit;
+  border-radius: inherit;
+  padding: inherit;
+  color: red;
+}
+div.cntWrap>div.content.cnt01>div.header>div.btns>.btn:nth-child(1){
+  margin: auto;
+  bottom: 0;
+  top: 0;
+  left: 0;
+}
+div.cntWrap>div.content.cnt01>div.header>div.btns>.btn:nth-child(2){
+  margin: auto;
+  bottom: 0;
+  top: 0;
+  right: 0;
+}
+div.cntWrap>div.content.cnt01>div.section{
+  padding: 0px 10px 0px 13px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView{
+  width: 100%;
+  height: 120px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup{
+  width: 266.667%;
+  height: 120px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article{
+  width: calc(100% / 8 - 20px);
+  margin: 0px 10px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image{
+  height: 85px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image.i1{
+  background-image: url('../images/main_cnt1_mob_i1.jpg');
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image.i2{
+  background-image: url('../images/main_cnt1_mob_i2.jpg');
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image.i3{
+  background-image: url('../images/main_cnt1_mob_i3.jpg');
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image.i4{
+  background-image: url('../images/main_cnt1_mob_i4.jpg');
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image:nth-child(2){
+  margin: 0px 10px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>h3{
+  background-color: inherit;
+  color: #000;
+  margin-top: 0;
+  font-size: 10px;
+}
+
+div.cntWrap>div.content.cnt02>div.header>h2{
+  display: none;
+}
+div.cntWrap>div.content.cnt02>div.section div.btn{
+  display: none;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artTop{
+  width: 100%;
+  height: 400px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artBtm{
+  width: 100%;
+  height: 400px;
+  margin-top: 40px;
+}
+div.cntWrap>div.content.cnt02 div.section>div.artTop>div.article>div.articleLeft>.artView{
+  width: 100%;
+  min-width: inherit;
+  margin-left: 0;
+}
+div.cntWrap>div.content.cnt02 div.section>div.artTop>div.article>div.articleLeft>.artView>.artGroup{
+  width: 100%;
+}
+div.cntWrap>div.content.cnt02 div.section>div.artTop>div.article>div.articleLeft>.artView>.artGroup>.art.a2{
+  display: none;
+}
+div.cntWrap>div.content.cnt02 div.section>div.artTop>div.article>div.articleLeft>.artView>.artGroup>.art.a1{
+  width: 100%;
+}
+div.cntWrap>div.content.cnt02 div.section>div.artTop>div.article>div.articleLeft>.artView>.artGroup>.art>.texts{
+  display: block;
+  margin-top: -80px;
+  padding-left: 20px;
+  line-height: 40px;
+  text-shadow: 1px 1px 2px white;
+}
+div.cntWrap>div.content.cnt02 div.section>div.artTop>div.article>div.articleLeft>.artView>.artGroup>.art>.texts>h3{
+  color: #f00;
+  font-weight: 700;
+  line-height: 20px;
+}
+div.cntWrap>div.content.cnt02 div.section>div.artBtm>div.article>div.articleRight>.artView>.artGroup>.art>.texts{
+  display: block;
+  margin-top: -80px;
+  padding-left: 20px;
+  line-height: 40px;
+  text-shadow: 1px 1px 2px white;
+}
+div.cntWrap>div.content.cnt02 div.section>div.artBtm>div.article>div.articleRight>.artView>.artGroup>.art>.texts>h3{
+  color: #f00;
+  font-weight: 700;
+  line-height: 20px;
+}
+div.cntWrap>div.content.cnt02 div.section>div.artTop>div.article>div.articleLeft>.artView>.artGroup>.art>.image{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.cntWrap>div.content.cnt02 div.section>div.artTop>div.article>div.articleLeft>.artView>.artGroup>.art>.image.i1{
+  height: 400px;
+  background-image: url('../images/main_mob_cnt2_i1.jfif');
+}
+
+div.cntWrap>div.content.cnt02 div.section>div.artBtm>div.article>div.articleRight>.artView{
+  width: 100%;
+  min-width: inherit;
+}
+div.cntWrap>div.content.cnt02 div.section>div.artBtm>div.article>div.articleRight>.artView>.artGroup{
+  width: 100%;
+}
+div.cntWrap>div.content.cnt02 div.section>div.artBtm>div.article>div.articleRight>.artView>.artGroup>.art.a2{
+  display: none;
+}
+div.cntWrap>div.content.cnt02 div.section>div.artBtm>div.article>div.articleRight>.artView>.artGroup>.art{
+  width: 100%;
+}
+div.cntWrap>div.content.cnt02 div.section>div.artBtm>div.article>div.articleRight>.artView>.artGroup>.art>.image.i1{
+  height: 400px;
+  background-image: url('../images/main_mob_cnt2_i2.jfif');
+}
+
+
+div.bnrWrap{
+  margin-top: 40px;
+}
+div.bnrWrap>div.banner{
+  width: 90%;
+  position: relative;
+}
+div.bnrWrap>div.banner>div.artView{
+  height: 280px;
+}
+div.bnrWrap>div.banner>div.artView>div.artGroup>div.image{
+  height: 280px;
+}
+div.bnrWrap>div.banner>div.texts{
+  margin-top: 0px;
+  position: inherit;
+  text-align: center;
+}
+div.bnrWrap>div.banner>div.texts>h2{
+  font-size: 18px;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 10px;
+}
+div.bnrWrap>div.banner>div.texts>p{
+  display: block;
+  font-size: 12px;
+  width: calc(100% / 4 * 2);
+  line-height: 20px;
+  height: 40px;
+}
+div.bnrWrap>div.banner>ul.btn{
+  width: 80px;
+  position: absolute;
+  bottom: 21%;
+  left: 39%;
+}
+div.bnrWrap>div.banner>ul.btn>li{
+  width: 10px;
+  height: 10px;
+}
+
+
+div.cntWrap>div.content.cnt03>div.header>h2{
+  display: none;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article{
+  width: 100%;
+  height: 120px;
+  margin: 0;
+  position: relative;
+  margin-top: 20px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.images{
+  height: 120px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.images>div.image.i1{
+  display: none;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.images>div.image.i2{
+  display: none;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.images>div.image.i3{
+  display: none;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article .texts{
+  text-align: center;
+  position: absolute;
+  margin: auto;
+  top: 0;bottom: 0;left: 0;right: 0;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article .texts h3{
+  color: #f00;
+  font-size: 20px;
+  font-weight: 700;
+  text-shadow: 1px 1px 3px #fff;
+  margin-top: 40px;
+}
+
+/* div.cntWrap>div.content.cnt03>div.header>h2{
+  display: none;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article:nth-child(1)~div.article{
+  display: none;
+}
+div.cntWrap>div.content.cnt03>div.section{
+  position: relative;
+  width: 100%;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article{
+  width: 100%;
+  margin: 0px;
+  position: relative;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.images.i1{
+  height: 400px;
+  width: 100vw;
+  margin-left: calc((100vw - 90vw) / -2);
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.images>div.image.i1{
+  width: calc(100% / 4 * 2);
+  margin: 0 auto;
+  height: 400px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.texts>h3{
+  width: calc(100% / 4 * 2);
+  position: absolute;
+  top: 0;
+  left: 22%;
+  font-weight: 700;
+}
+div.cntWrap>div.content.cnt03>div.section>div.btn{
+  display: block;
+  color: red;
+  font-size: 44px;
+  line-height: 50px;
+  width: calc(100% / 4 * 3);
+  height: 50px;
+  position: absolute;
+  margin: auto;
+  top: 0; bottom: 0;right: 0;left: 0;
+
+}
+div.cntWrap>div.content.cnt03>div.section>div.btn>i:nth-child(1){
+  float: left;
+}
+div.cntWrap>div.content.cnt03>div.section>div.btn>i:nth-child(2){
+  float: right;
+} */
+
+
+
+
+
+div.ftrWrap{
+  margin-top: 40px;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.social>div.texts>h4:nth-child(1){
+  font-size: 12px;
+  line-height: 20px;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.social>div.texts>h4{
+  font-size: 10px;
+  line-height: 20px;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.social>div.sns{
+  font-size: 20px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+div.ftrWrap>div.footer>div.ftrBtm{
+  margin-top: 20px;
+}
+div.ftrWrap>div.footer>div.ftrBtm>p{
+  width: 80%;
+  height: 80px;
+  overflow: hidden;
+}
